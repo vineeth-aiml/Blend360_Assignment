@@ -25,10 +25,11 @@ retail_insight_architecture/
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
+├── .gitattributes
 ├── README.md
 │
 ├── docs/
-│   ├── Architecture_Presentation.pptx
+│   ├── Architecture_Presentation.pdf
 │   ├── TECHNICAL_NOTES.md
 │   ├── DATA_FLOW_AND_100GB_SCALE.md
 │   ├── DEMO_EVIDENCE_GUIDE.md
@@ -36,13 +37,14 @@ retail_insight_architecture/
 │   └── PROJECT_STRUCTURE.md
 │
 ├── screenshots/
-│   ├── 01_header_api_key.png
-│   ├── 02_view_questions.png
-│   ├── 03_qa_response_sql.png
-│   ├── 04_category_chart.png
-│   ├── 05_state_revenue_chart.png
-│   ├── 06_extracted_table.png
-│   └── 07_api_key_empty_state.png
+│   ├── 01.Streamlit_UI.png
+│   ├── 02.streamlit_ui_after_gemini_api_activation.png
+│   ├── 03.Which category has the highest sales.png
+│   ├── 04.What is the total revenue by state.png
+│   ├── 05.Show me top performing products..png
+│   ├── 06.Screenshot 2026-Which region saw the most orders05-12 213959.png
+│   ├── 07.Which region saw the most orders.png
+│   └── 08.Generate an overall sales summary.png
 │
 ├── Sales Dataset/
 │   ├── Amazon Sale Report.csv
@@ -57,6 +59,7 @@ retail_insight_architecture/
     ├── data_processor.py
     ├── llm_provider.py
     ├── orchestrator.py
+    │
     └── ui/
         ├── __init__.py
         └── streamlit_app.py
