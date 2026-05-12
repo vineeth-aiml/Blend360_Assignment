@@ -1,0 +1,23 @@
+# Core Dependencies
+python-dotenv==1.0.1
+pandas==2.2.3
+numpy==2.2.2
+
+# LLM and AI Framework
+google-genai>=1.0.0
+langchain==0.3.27
+langchain-community==0.3.29
+langchain-core==0.3.80
+langgraph==1.0.1
+
+# Data Processing
+duckdb==1.4.4
+
+# UI Framework
+streamlit==1.49.1
+plotly==6.5.2
+
+# Utilities
+python-dateutil==2.9.0.post0
+pydantic==2.11.7
+httpx==0.28.1
