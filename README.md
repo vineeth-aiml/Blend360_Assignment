@@ -42,7 +42,7 @@ retail_insight_architecture/
 │   ├── 03.Which category has the highest sales.png
 │   ├── 04.What is the total revenue by state.png
 │   ├── 05.Show me top performing products..png
-│   ├── 06.Screenshot 2026-Which region saw the most orders05-12 213959.png
+│   ├── 06.Which region saw the most orders05-12 213959.png
 │   ├── 07.Which region saw the most orders.png
 │   └── 08.Generate an overall sales summary.png
 │
